@@ -1,2 +1,2 @@
-# passgen
-Generates passwords given length
+# passgenbutinJava
+Generates passwords given length, but in JAVA!
