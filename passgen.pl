@@ -8,7 +8,11 @@ my $arg1 = int($ARGV[0]);
 my $arg2 = int($ARGV[1]);
 
 if($arg1 == NULL) {
-    die "Usage: perl passgen.pl <arg1>...\n";
+    die "Usage: perl passgen.pl <arg1> <arg2>...\n";
+}
+
+if($arg2 == NULL) {
+    die "Usage: perl passgen.pl <arg1> <arg2>...\n";
 }
 
 my @special_chars = ('!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '-', '_', '=', '+', '[', ']', '{', '}', '|', '\\', ';', ':', '\'', '\"', ',', '.', '/', '<', '>', '?');
