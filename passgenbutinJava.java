@@ -4,7 +4,7 @@ public class passgenbutinJava {
 
     public static void main(String[] args) {
         
-        //array of characters for the program to chooese from
+        //array of characters for the program
         char[] chars = "dn".toCharArray();
 
         //string builder to hold the password <-- what this guy said.
